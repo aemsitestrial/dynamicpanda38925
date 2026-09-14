@@ -1,0 +1,16 @@
+/**
+ * Foundation Motion Variables
+ * Generated from XE Design Tokens
+ */
+
+:root {
+  /* Motion Duration */
+  --xe-motion-duration-150: 150ms;
+  --xe-motion-duration-250: 250ms;
+  --xe-motion-duration-300: 300ms;
+
+  /* Motion Easing */
+  --xe-motion-easing-0p4-0-0p2-1: cubic-bezier(0.4, 0, 0.2, 1);
+  --xe-motion-easing-0-0-0p2-1: cubic-bezier(0, 0, 0.2, 1);
+  --xe-motion-easing-0p4-0-1-1: cubic-bezier(0.4, 0, 1, 1);
+}

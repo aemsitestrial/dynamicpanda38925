@@ -12,6 +12,12 @@
     "build:json:models": "merge-json-cli -i \"models/_component-models.json\" -o \"component-models.json\"",
     "build:json:definitions": "merge-json-cli -i \"models/_component-definition.json\" -o \"component-definition.json\"",
     "build:json:filters": "merge-json-cli -i \"models/_component-filters.json\" -o \"component-filters.json\"",
+    "copy:ignite:composition": "mkdir \"scripts/ignite/compositions\" && cp node_modules/@ignite/web/dist/compositions/**/*.js scripts/ignite/compositions",
+    "copy:ignite:primitive": "mkdir \"scripts/ignite/primitives\" && cp node_modules/@ignite/web/dist/primitives/**/**/*.js scripts/ignite/primitives",
+    "copy:ignite:themes": "mkdir \"scripts/ignite/themes\" && cp node_modules/@ignite/web/dist/themes/cms.css scripts/ignite/themes",
+    "copy:ignite:tokens": "mkdir \"scripts/ignite/tokens\" && cp node_modules/@ignite/web/dist/tokens/**/*.css scripts/ignite/tokens",
+    "copy:ignite:utils": "mkdir \"scripts/ignite/utils\" && cp node_modules/@ignite/web/dist/utils/*.js scripts/ignite/utils",
+    "copy:ignite:package": "rm -rf scripts/ignite && npm run copy:ignite:composition && npm run copy:ignite:primitive && npm run copy:ignite:themes && npm run copy:ignite:tokens && npm run copy:ignite:utils",
     "prepare": "husky"
   },
   "repository": {
@@ -36,8 +42,5 @@
     "npm-run-all": "4.1.5",
     "stylelint": "16.21.1",
     "stylelint-config-standard": "38.0.0"
-  },
-  "dependencies": {
-    "@ignite/web": "^0.34.0"
   }
 }

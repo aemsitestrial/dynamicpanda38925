@@ -1,0 +1,34 @@
+/**
+ * Foundation Sizes Variables
+ * Generated from XE Design Tokens
+ */
+
+:root {
+  /* Sizes */
+  --xe-size-0: 0px;
+  --xe-size-1: 1px;
+  --xe-size-2: 2px;
+  --xe-size-3: 3px;
+  --xe-size-4: 4px;
+  --xe-size-8: 8px;
+  --xe-size-12: 12px;
+  --xe-size-16: 16px;
+  --xe-size-20: 20px;
+  --xe-size-24: 24px;
+  --xe-size-32: 32px;
+  --xe-size-40: 40px;
+  --xe-size-48: 48px;
+  --xe-size-56: 56px;
+  --xe-size-64: 64px;
+  --xe-size-72: 72px;
+  --xe-size-80: 80px;
+  --xe-size-96: 96px;
+  --xe-size-128: 128px;
+  --xe-size-160: 160px;
+  --xe-size-192: 192px;
+  --xe-size-256: 256px;
+  --xe-size-320: 320px;
+  --xe-size-384: 384px;
+  --xe-size-512: 512px;
+  --xe-sizes: [object Object];
+}
