@@ -38,7 +38,6 @@
     "stylelint-config-standard": "38.0.0"
   },
   "dependencies": {
-    "@adobe/aem-cli": "^16.21.18",
     "@ignite/web": "^0.34.0"
   }
 }
