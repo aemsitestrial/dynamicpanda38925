@@ -1,0 +1,51 @@
+{
+  "definitions": [
+    {
+      "title": "XE Card",
+      "id": "xe-card",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "XE Card",
+              "model": "xe-card"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "xe-card",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "title",
+          "label": "Title",
+          "multi": false
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "description",
+          "label": "Description"
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "action_Title",
+          "label": "Action"
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "action_Link",
+          "label": "Link URL"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p153710e11614654.adobeaemcloud.com/bin/franklin.delivery/aemsitestrial/dynamicpanda38925/main"
+    type: "markup"
+    suffix: ".html"
