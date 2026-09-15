@@ -10,5 +10,17 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 20
+    - name: Configure .npmrc for private registries
+      run: |
+        echo "@ignite:registry=https://xcel.jfrog.io/artifactory/api/npm/npm/" >> .npmrc
+        echo "//xcel.jfrog.io/artifactory/api/npm/npm/:_authToken=${{ secrets.IGNITE_TOKEN }}" >> .npmrc
+        echo "//xcel.jfrog.io/artifactory/api/npm/xe-npm:always-auth=true" >> .npmrc
+        
+        echo "@xcel-energy:registry=https://xcel.jfrog.io/artifactory/api/npm/npm/" >> .npmrc
+        echo "//xcel.jfrog.io/artifactory/api/npm/npm/:_authToken=${{ secrets.IGNITE_TOKEN }}" >> .npmrc
+        echo "//xcel.jfrog.io/artifactory/api/npm/xe-npm:always-auth=true" >> .npmrc
+        
+        echo "@fortawesome:registry=https://npm.fontawesome.com/" >> .npmrc
+        echo "//npm.fontawesome.com/:_authToken=${{ secrets.FORTAWESOME_TOKEN }}" >> .npmrc
     - run: npm ci
     - run: npm run lint
