@@ -21,26 +21,26 @@
       "id": "xe-card",
       "fields": [
         {
-          "component": "reference",
+          "component": "text",
           "valueType": "string",
           "name": "title",
           "label": "Title",
           "multi": false
         },
         {
-          "component": "reference",
+          "component": "text",
           "valueType": "string",
           "name": "description",
           "label": "Description"
         },
         {
-          "component": "reference",
+          "component": "text",
           "valueType": "string",
           "name": "actionTitle",
           "label": "Action"
         },
         {
-          "component": "reference",
+          "component": "text",
           "valueType": "string",
           "name": "actionLink",
           "label": "Link URL"
