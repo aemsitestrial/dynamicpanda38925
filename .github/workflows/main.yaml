@@ -23,3 +23,4 @@ jobs:
         echo "@fortawesome:registry=https://npm.fontawesome.com/" >> .npmrc
         echo "//npm.fontawesome.com/:_authToken=${{ secrets.FORTAWESOME_TOKEN }}" >> .npmrc
     - run: npm ci
+    - run: npm run lint
