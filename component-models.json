@@ -214,5 +214,54 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "xe-card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "multi": false
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "description",
+        "label": "Description"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "actionTitle",
+        "label": "Action"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "actionLink",
+        "label": "Link URL"
+      }
+    ]
+  },
+  {
+    "id": "xe-feature-cards",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "heading",
+        "label": "Heading",
+        "multi": false
+      },
+      {
+        "component": "reference",
+        "name": "subHeading",
+        "value": "sub header",
+        "label": "Sub heading",
+        "valueType": "string"
+      }
+    ]
   }
 ]

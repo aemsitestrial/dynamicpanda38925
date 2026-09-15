@@ -38,5 +38,11 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "xe-feature-cards",
+    "components": [
+      "xe-card"
+    ]
   }
 ]
