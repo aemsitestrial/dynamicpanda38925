@@ -36,13 +36,13 @@
         {
           "component": "reference",
           "valueType": "string",
-          "name": "action_Title",
+          "name": "actionTitle",
           "label": "Action"
         },
         {
           "component": "reference",
           "valueType": "string",
-          "name": "action_Link",
+          "name": "actionLink",
           "label": "Link URL"
         }
       ]
