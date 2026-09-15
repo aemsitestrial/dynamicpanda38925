@@ -1,6 +1,6 @@
 export default function decorate(block) {
   const rows = [...block.children];
-  const [title, description, action_Title] = rows.children;
+  const [title, description, actionTitle] = rows.children;
   const xeCard = document.createElement('xe-card');
 
   // create title
@@ -17,7 +17,7 @@ export default function decorate(block) {
   // create action
   const elAction = document.createElement('div');
   elAction.setAttribute('slot', 'action');
-  elAction.appendChild(`<xe-button>${action_Title}</xe-button>`);
+  elAction.appendChild(`<xe-button>${actionTitle}</xe-button>`);
   xeCard.appendChild(elAction);
 
   block.replaceChildren(xeCard);
