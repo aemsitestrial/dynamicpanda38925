@@ -1,3 +1,7 @@
+// registers the <xe-card> and <xe-button> custom elements
+import '../../scripts/ignite/bundle/primitives/xe-card.js';
+import '../../scripts/ignite/bundle/primitives/xe-button.js';
+
 export default function decorate(block) {
   const title = 'Title';
   const description = 'description';
@@ -6,19 +10,21 @@ export default function decorate(block) {
 
   // create title
   const elTitle = document.createElement('h3');
-  elTitle.textContent(title);
+  elTitle.textContent = title;
   elTitle.setAttribute('slot', 'title');
   xeCard.appendChild(elTitle);
 
   // create description
   const elDescription = document.createElement('p');
-  elDescription.textContent(description);
+  elDescription.textContent = description;
   xeCard.appendChild(elDescription);
 
   // create action
   const elAction = document.createElement('div');
   elAction.setAttribute('slot', 'action');
-  elAction.appendChild(`<xe-button>${actionTitle}</xe-button>`);
+  const elButton = document.createElement('xe-button');
+  elButton.textContent = actionTitle;
+  elAction.appendChild(elButton);
   xeCard.appendChild(elAction);
 
   block.replaceChildren(xeCard);

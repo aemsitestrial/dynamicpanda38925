@@ -1,3 +1,6 @@
+// registers the <xe-feature-cards> and <xe-card-grid> custom elements
+import '../../scripts/ignite/bundle/compositions/xe-feature-cards.js';
+
 export default function decorate(block) {
   const heading = 'Hello';
   const subHeading = 'world';

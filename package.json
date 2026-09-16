@@ -14,10 +14,12 @@
     "build:json:filters": "merge-json-cli -i \"models/_component-filters.json\" -o \"component-filters.json\"",
     "copy:ignite:composition": "mkdir \"scripts/ignite/compositions\" && cp node_modules/@ignite/web/dist/compositions/**/*.js scripts/ignite/compositions",
     "copy:ignite:primitive": "mkdir \"scripts/ignite/primitives\" && cp node_modules/@ignite/web/dist/primitives/**/**/*.js scripts/ignite/primitives",
-    "copy:ignite:themes": "mkdir \"scripts/ignite/themes\" && cp node_modules/@ignite/web/dist/themes/cms.css scripts/ignite/themes",
-    "copy:ignite:tokens": "mkdir \"scripts/ignite/tokens\" && cp node_modules/@ignite/web/dist/tokens/**/*.css scripts/ignite/tokens",
+    "copy:ignite:themes": "mkdir -p scripts/ignite/themes && cp -r node_modules/@ignite/web/dist/themes/. scripts/ignite/themes",
+    "copy:ignite:tokens": "mkdir -p scripts/ignite/tokens && cp -r node_modules/@ignite/web/dist/tokens/. scripts/ignite/tokens",
     "copy:ignite:utils": "mkdir \"scripts/ignite/utils\" && cp node_modules/@ignite/web/dist/utils/*.js scripts/ignite/utils",
-    "copy:ignite:package": "rm -rf scripts/ignite && npm run copy:ignite:composition && npm run copy:ignite:primitive && npm run copy:ignite:themes && npm run copy:ignite:tokens && npm run copy:ignite:utils",
+    "bundle:ignite": "esbuild scripts/ignite/compositions/*.js scripts/ignite/primitives/*.js --bundle --format=esm --outbase=scripts/ignite --outdir=scripts/ignite/bundle",
+    "copy:ignite:package": "rm -rf scripts/ignite && npm run copy:ignite:composition && npm run copy:ignite:primitive && npm run copy:ignite:themes && npm run copy:ignite:tokens && npm run copy:ignite:utils && npm run bundle:ignite",
+    "postinstall": "npm run copy:ignite:package",
     "prepare": "husky"
   },
   "repository": {
@@ -37,6 +39,7 @@
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-json": "3.1.0",
     "eslint-plugin-xwalk": "github:adobe-rnd/eslint-plugin-xwalk#v0.1.3",
+    "esbuild": "0.25.5",
     "husky": "9.1.1",
     "merge-json-cli": "1.0.4",
     "npm-run-all": "4.1.5",
