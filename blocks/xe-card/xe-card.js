@@ -20,7 +20,6 @@ await Promise.all([
   '../../scripts/ignite/bundle/primitives/action/button/xe-button.js',
 ].map(safeImport));
 
-
 export default function decorate(block) {
   const title = 'Title';
   const description = 'description';

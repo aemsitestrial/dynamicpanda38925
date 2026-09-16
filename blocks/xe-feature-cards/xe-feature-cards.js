@@ -1,4 +1,3 @@
-
 import decorateCard from '../xe-card/xe-card.js';
 
 async function safeImport(path) {
