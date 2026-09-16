@@ -11,7 +11,6 @@ async function safeImport(path) {
   }
 }
 
-// registers <xe-feature-cards>, <xe-card-grid>, <xe-icon>, <xe-icon-button>, <xe-carousel>, <xe-card>, <xe-button>
 await Promise.all([
   '../../scripts/ignite/bundle/compositions/feature-cards/xe-feature-cards.js',
   '../../scripts/ignite/bundle/primitives/layout/card/xe-card.js',
