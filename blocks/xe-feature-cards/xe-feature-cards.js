@@ -1,9 +1,3 @@
-// Each ignite bundle self-registers its own copy of shared elements (e.g.
-// xe-icon), so importing more than one bundle that touches the same tag
-// throws NotSupportedError and aborts the rest of that bundle's
-// registrations (including the element the import was meant to add). Load
-// them through customElements.define guarded against re-registration so one
-// bundle's duplicate definition can't stop another's from completing.
 async function safeImport(path) {
   const originalDefine = customElements.define.bind(customElements);
   customElements.define = (name, ctor, options) => {
@@ -31,9 +25,6 @@ export default function decorate(block) {
   const featureCards = document.createElement('xe-feature-cards');
   featureCards.setAttribute('heading', heading);
   featureCards.setAttribute('subHeading', subHeading);
-  // move (not replace) the authored rows so each xe-card item keeps its
-  // data-aue-* instrumentation, otherwise the Universal Editor can no longer
-  // track existing items or let you add new ones inside this block.
   [...block.children].forEach((row) => xeCardGrid.append(row));
   featureCards.appendChild(xeCardGrid);
   block.append(featureCards);
