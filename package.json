@@ -18,7 +18,6 @@
     "copy:ignite:tokens": "mkdir -p scripts/ignite/tokens && cp -r node_modules/@ignite/web/dist/tokens/. scripts/ignite/tokens",
     "copy:ignite:utils": "mkdir \"scripts/ignite/utils\" && cp node_modules/@ignite/web/dist/utils/*.js scripts/ignite/utils",
     "copy:ignite:package": "rm -rf scripts/ignite && npm run copy:ignite:composition && npm run copy:ignite:primitive && npm run copy:ignite:themes && npm run copy:ignite:tokens && npm run copy:ignite:utils && npm run bundle:ignite",
-    "postinstall": "npm run copy:ignite:package",
     "prepare": "husky"
   },
   "repository": {
