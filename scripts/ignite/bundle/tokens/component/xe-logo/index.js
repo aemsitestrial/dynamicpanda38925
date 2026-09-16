@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-logo/index.js
+// scripts/ignite/dist/tokens/component/xe-logo/index.js
 var xe_logo_default = i`/**
  * Logo Component CSS
  * Styles for logo component using XE design tokens

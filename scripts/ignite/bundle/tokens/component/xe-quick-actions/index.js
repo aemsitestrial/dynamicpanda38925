@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-quick-actions/index.js
+// scripts/ignite/dist/tokens/component/xe-quick-actions/index.js
 var xe_quick_actions_default = i`/**
  * Quick Actions Composition CSS
  * Responsive card grid with count-driven layout variants (3-up, 4-up, 5-up).

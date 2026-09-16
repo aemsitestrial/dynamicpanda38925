@@ -5665,7 +5665,7 @@ var e6 = e5(class extends i5 {
   }
 });
 
-// scripts/ignite/primitives/media/icon/icon-resolver.js
+// scripts/ignite/dist/primitives/media/icon/icon-resolver.js
 var iconRegistry = {};
 function resolveIcon(iconName) {
   const iconDef = iconRegistry[iconName];
@@ -5687,7 +5687,7 @@ function resolveIcon(iconName) {
   `;
 }
 
-// scripts/ignite/primitives/media/icon/xe-icon.js
+// scripts/ignite/dist/primitives/media/icon/xe-icon.js
 var __decorate = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);
@@ -5715,7 +5715,7 @@ XEIcon = __decorate([
   t3("xe-icon")
 ], XEIcon);
 
-// scripts/ignite/primitives/action/button/xe-button.js
+// scripts/ignite/dist/primitives/action/button/xe-button.js
 var __decorate2 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);
@@ -5867,7 +5867,7 @@ XEButton = __decorate2([
   t3("xe-button")
 ], XEButton);
 
-// scripts/ignite/primitives/action/icon-button/xe-icon-button.js
+// scripts/ignite/dist/primitives/action/icon-button/xe-icon-button.js
 var __decorate3 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);
@@ -5961,7 +5961,7 @@ XEIconButton = __decorate3([
   t3("xe-icon-button")
 ], XEIconButton);
 
-// scripts/ignite/primitives/layout/menu-item/xe-menu-item.js
+// scripts/ignite/dist/primitives/layout/menu-item/xe-menu-item.js
 var __decorate4 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);
@@ -6178,7 +6178,7 @@ XEMenuItem = XEMenuItem_1 = __decorate4([
   t3("xe-menu-item")
 ], XEMenuItem);
 
-// scripts/ignite/primitives/layout/menu/xe-menu.js
+// scripts/ignite/dist/primitives/layout/menu/xe-menu.js
 var __decorate5 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);
@@ -6209,7 +6209,7 @@ XEMenu = __decorate5([
   t3("xe-menu")
 ], XEMenu);
 
-// scripts/ignite/primitives/action/menu-button/xe-menu-button.js
+// scripts/ignite/dist/primitives/action/menu-button/xe-menu-button.js
 var __decorate6 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);

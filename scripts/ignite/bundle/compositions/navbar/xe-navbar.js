@@ -5648,7 +5648,7 @@ iframe {
 }
 `;
 
-// scripts/ignite/compositions/navbar/utils/search-routing.js
+// scripts/ignite/dist/compositions/navbar/utils/search-routing.js
 var SEARCH_EXPANDED_WIDTH = 280;
 var SEARCH_COLLAPSED_WIDTH = 48;
 var SEARCH_NET_GROWTH = SEARCH_EXPANDED_WIDTH - SEARCH_COLLAPSED_WIDTH;
@@ -6135,7 +6135,7 @@ XEMenu = __decorate4([
   t3("xe-menu")
 ], XEMenu);
 
-// scripts/ignite/compositions/navbar/xe-nav-item.js
+// scripts/ignite/dist/compositions/navbar/xe-nav-item.js
 var __decorate5 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);
@@ -7211,7 +7211,7 @@ XESearchBar = __decorate10([
   t3("xe-search-bar")
 ], XESearchBar);
 
-// scripts/ignite/compositions/navbar/xe-navbar.js
+// scripts/ignite/dist/compositions/navbar/xe-navbar.js
 var __decorate11 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);

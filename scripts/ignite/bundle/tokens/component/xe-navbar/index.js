@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-navbar/index.js
+// scripts/ignite/dist/tokens/component/xe-navbar/index.js
 var xe_navbar_default = i`/**
  * Navbar Component CSS
  * For use in the shadow DOM of xe-navbar.

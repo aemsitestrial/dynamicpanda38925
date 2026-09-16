@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-banner-column/index.js
+// scripts/ignite/dist/tokens/component/xe-banner-column/index.js
 var xe_banner_column_default = i`/**
  * Banner Column Component CSS
  * For use in the shadow DOM of xe-banner-column.

@@ -5616,7 +5616,7 @@ iframe {
 }
 `;
 
-// scripts/ignite/primitives/input-control/radio-tile/xe-radio-tile.js
+// scripts/ignite/dist/primitives/input-control/radio-tile/xe-radio-tile.js
 var __decorate = function(decorators, target, key, desc) {
   var c4 = arguments.length, r5 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);
@@ -5739,7 +5739,7 @@ XERadioTile = __decorate([
   t3("xe-radio-tile")
 ], XERadioTile);
 
-// scripts/ignite/primitives/input-control/radio-tile/xe-radio-tile-group.js
+// scripts/ignite/dist/primitives/input-control/radio-tile/xe-radio-tile-group.js
 var __decorate2 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r5 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);

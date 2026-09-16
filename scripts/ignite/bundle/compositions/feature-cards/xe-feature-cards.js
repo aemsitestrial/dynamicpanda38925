@@ -6078,7 +6078,7 @@ XECarousel = __decorate4([
   t3("xe-carousel")
 ], XECarousel);
 
-// scripts/ignite/compositions/feature-cards/xe-feature-cards.js
+// scripts/ignite/dist/compositions/feature-cards/xe-feature-cards.js
 var __decorate5 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);

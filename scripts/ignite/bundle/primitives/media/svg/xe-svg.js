@@ -5616,7 +5616,7 @@ iframe {
 }
 `;
 
-// scripts/ignite/primitives/media/svg/svg-resolver.js
+// scripts/ignite/dist/primitives/media/svg/svg-resolver.js
 var svgRegistry = /* @__PURE__ */ new Map();
 function resolveSvg(name) {
   if (!svgRegistry.has(name)) {
@@ -5626,7 +5626,7 @@ function resolveSvg(name) {
   return svgRegistry.get(name);
 }
 
-// scripts/ignite/primitives/media/svg/xe-svg.js
+// scripts/ignite/dist/primitives/media/svg/xe-svg.js
 var __decorate = function(decorators, target, key, desc) {
   var c4 = arguments.length, r5 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);

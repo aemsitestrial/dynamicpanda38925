@@ -5651,7 +5651,7 @@ iframe {
 }
 `;
 
-// scripts/ignite/compositions/banner/xe-banner-column.js
+// scripts/ignite/dist/compositions/banner/xe-banner-column.js
 var __decorate = function(decorators, target, key, desc) {
   var c5 = arguments.length, r6 = c5 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);

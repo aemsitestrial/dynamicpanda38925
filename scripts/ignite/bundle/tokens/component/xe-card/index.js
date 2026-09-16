@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-card/index.js
+// scripts/ignite/dist/tokens/component/xe-card/index.js
 var xe_card_default = i`/**
  * Card Component CSS
  * Styles for card container elements using XE design tokens

@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-menu-button/index.js
+// scripts/ignite/dist/tokens/component/xe-menu-button/index.js
 var xe_menu_button_default = i`/**
  * Menu Button Component CSS
  * Layout styles for xe-menu-button.

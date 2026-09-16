@@ -5616,7 +5616,7 @@ iframe {
 }
 `;
 
-// scripts/ignite/primitives/layout/card-grid/xe-card-grid.js
+// scripts/ignite/dist/primitives/layout/card-grid/xe-card-grid.js
 var __decorate = function(decorators, target, key, desc) {
   var c4 = arguments.length, r5 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);

@@ -5616,11 +5616,11 @@ iframe {
 }
 `;
 
-// scripts/ignite/primitives/action/hyperlink/xe-hyperlink.js
+// scripts/ignite/dist/primitives/action/hyperlink/xe-hyperlink.js
 import { faArrowUpRightFromSquare } from "@fortawesome/pro-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/pro-regular-svg-icons";
 
-// scripts/ignite/primitives/media/icon/icon-resolver.js
+// scripts/ignite/dist/primitives/media/icon/icon-resolver.js
 var iconRegistry = {};
 function registerIcons(icons) {
   Object.assign(iconRegistry, icons);
@@ -5645,7 +5645,7 @@ function resolveIcon(iconName) {
   `;
 }
 
-// scripts/ignite/primitives/media/icon/xe-icon.js
+// scripts/ignite/dist/primitives/media/icon/xe-icon.js
 var __decorate = function(decorators, target, key, desc) {
   var c4 = arguments.length, r5 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);
@@ -5673,7 +5673,7 @@ XEIcon = __decorate([
   t3("xe-icon")
 ], XEIcon);
 
-// scripts/ignite/primitives/action/hyperlink/xe-hyperlink.js
+// scripts/ignite/dist/primitives/action/hyperlink/xe-hyperlink.js
 var __decorate2 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r5 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);

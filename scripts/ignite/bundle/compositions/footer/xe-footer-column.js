@@ -5778,7 +5778,7 @@ XEAccordion = __decorate2([
   t3("xe-accordion")
 ], XEAccordion);
 
-// scripts/ignite/compositions/footer/xe-footer-column.js
+// scripts/ignite/dist/compositions/footer/xe-footer-column.js
 var __decorate3 = function(decorators, target, key, desc) {
   var c5 = arguments.length, r6 = c5 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);

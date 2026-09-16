@@ -5941,7 +5941,7 @@ XEIconButton = __decorate3([
   t3("xe-icon-button")
 ], XEIconButton);
 
-// scripts/ignite/compositions/nav-drawer/xe-nav-drawer-item.js
+// scripts/ignite/dist/compositions/nav-drawer/xe-nav-drawer-item.js
 var __decorate4 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);
@@ -6035,7 +6035,7 @@ XENavDrawerItem = __decorate4([
   t3("xe-nav-drawer-item")
 ], XENavDrawerItem);
 
-// scripts/ignite/compositions/nav-drawer/xe-nav-drawer.js
+// scripts/ignite/dist/compositions/nav-drawer/xe-nav-drawer.js
 var __decorate5 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);

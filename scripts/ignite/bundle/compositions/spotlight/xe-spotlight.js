@@ -5616,7 +5616,7 @@ iframe {
 }
 `;
 
-// scripts/ignite/compositions/spotlight/xe-spotlight.js
+// scripts/ignite/dist/compositions/spotlight/xe-spotlight.js
 var __decorate = function(decorators, target, key, desc) {
   var c4 = arguments.length, r5 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);

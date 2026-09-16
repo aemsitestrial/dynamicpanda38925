@@ -540,7 +540,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/primitives/media/svg/svg-resolver.js
+// scripts/ignite/dist/primitives/media/svg/svg-resolver.js
 var svgRegistry = /* @__PURE__ */ new Map();
 function registerSvgs(svgs) {
   Object.entries(svgs).forEach(([name, tpl]) => svgRegistry.set(name, tpl));

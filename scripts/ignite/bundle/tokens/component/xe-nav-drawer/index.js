@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-nav-drawer/index.js
+// scripts/ignite/dist/tokens/component/xe-nav-drawer/index.js
 var xe_nav_drawer_default = i`/**
  * Nav Drawer Component CSS
  * Styles for the mobile navigation drawer using XE design tokens

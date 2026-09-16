@@ -1,4 +1,4 @@
-// scripts/ignite/utils/focus-trap.js
+// scripts/ignite/dist/utils/focus-trap.js
 var FOCUSABLE = 'button:not([disabled]):not([tabindex="-1"]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex="0"]';
 function getFocusableEls(root) {
   const results = [];

@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-menu-item/index.js
+// scripts/ignite/dist/tokens/component/xe-menu-item/index.js
 var xe_menu_item_default = i`/**
  * Menu Item Component CSS
  * Styles for menu item using XE design tokens

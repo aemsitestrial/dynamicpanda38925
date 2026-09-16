@@ -540,7 +540,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/primitives/media/icon/icon-resolver.js
+// scripts/ignite/dist/primitives/media/icon/icon-resolver.js
 var iconRegistry = {};
 function registerIcons(icons) {
   Object.assign(iconRegistry, icons);

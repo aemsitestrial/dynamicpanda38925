@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-accordion/index.js
+// scripts/ignite/dist/tokens/component/xe-accordion/index.js
 var xe_accordion_default = i`/**
  * Accordion Component CSS
  * Styles for accordion component using XE design tokens
@@ -683,7 +683,7 @@ var xe_accordion_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-banner/index.js
+// scripts/ignite/dist/tokens/component/xe-banner/index.js
 var xe_banner_default = i`/**
  * Banner Component CSS - Using Component Tokens
  * Maps to role typography families and theme-aware colors
@@ -808,7 +808,7 @@ var xe_banner_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-banner-column/index.js
+// scripts/ignite/dist/tokens/component/xe-banner-column/index.js
 var xe_banner_column_default = i`/**
  * Banner Column Component CSS
  * For use in the shadow DOM of xe-banner-column.
@@ -894,7 +894,7 @@ var xe_banner_column_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-bento/index.js
+// scripts/ignite/dist/tokens/component/xe-bento/index.js
 var xe_bento_default = i`:host {
   display: block;
   width: 100%;
@@ -918,7 +918,7 @@ var xe_bento_default = i`:host {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-bento-item/index.js
+// scripts/ignite/dist/tokens/component/xe-bento-item/index.js
 var xe_bento_item_default = i`:host {
   display: block;
   min-width: 0;
@@ -935,7 +935,7 @@ var xe_bento_item_default = i`:host {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-bottom-sheet/index.js
+// scripts/ignite/dist/tokens/component/xe-bottom-sheet/index.js
 var xe_bottom_sheet_default = i`:host {
   display: contents;
 }
@@ -1063,7 +1063,7 @@ var xe_bottom_sheet_default = i`:host {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-button/index.js
+// scripts/ignite/dist/tokens/component/xe-button/index.js
 var xe_button_default = i`/**
  * Button Component CSS - Simplified with CSS Custom Properties
  * Uses CSS variables for scalable variant system
@@ -1552,7 +1552,7 @@ var xe_button_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-card/index.js
+// scripts/ignite/dist/tokens/component/xe-card/index.js
 var xe_card_default = i`/**
  * Card Component CSS
  * Styles for card container elements using XE design tokens
@@ -2520,7 +2520,7 @@ slot[name="decorative"] {
 
 `;
 
-// scripts/ignite/tokens/component/xe-card-grid/index.js
+// scripts/ignite/dist/tokens/component/xe-card-grid/index.js
 var xe_card_grid_default = i`:host {
   display: block;
   width: 100%;
@@ -2545,7 +2545,7 @@ var xe_card_grid_default = i`:host {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-carousel/index.js
+// scripts/ignite/dist/tokens/component/xe-carousel/index.js
 var xe_carousel_default = i`/**
  * Carousel Primitive CSS
  * Horizontally scrollable scroll-snap carousel with dot pagination and arrow navigation.
@@ -2685,7 +2685,7 @@ var xe_carousel_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-feature-cards/index.js
+// scripts/ignite/dist/tokens/component/xe-feature-cards/index.js
 var xe_feature_cards_default = i`/**
  * Feature Cards Composition CSS
  * Section wrapper with heading, optional subheading, and a card grid.
@@ -2785,7 +2785,7 @@ var xe_feature_cards_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-footer/index.js
+// scripts/ignite/dist/tokens/component/xe-footer/index.js
 var xe_footer_default = i`/**
  * Footer Component CSS
  */
@@ -3001,7 +3001,7 @@ var xe_footer_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-footer-column/index.js
+// scripts/ignite/dist/tokens/component/xe-footer-column/index.js
 var xe_footer_column_default = i`/**
  * Footer Column Component CSS
  */
@@ -3070,7 +3070,7 @@ ul {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-hero/index.js
+// scripts/ignite/dist/tokens/component/xe-hero/index.js
 var xe_hero_default = i`/**
  * Hero Component CSS
  * Styles for hero section component using XE design tokens
@@ -3271,7 +3271,7 @@ var xe_hero_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-hyperlink/index.js
+// scripts/ignite/dist/tokens/component/xe-hyperlink/index.js
 var xe_hyperlink_default = i`/**
  * Hyperlink Component CSS
  */
@@ -3320,7 +3320,7 @@ var xe_hyperlink_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-icon/index.js
+// scripts/ignite/dist/tokens/component/xe-icon/index.js
 var xe_icon_default = i`/**
  * Icon Component CSS
  * Styles for xe-icon using XE design tokens
@@ -3357,7 +3357,7 @@ svg {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-icon-button/index.js
+// scripts/ignite/dist/tokens/component/xe-icon-button/index.js
 var xe_icon_button_default = i`/**
  * XE Icon Button Styles
  * Generated from design tokens
@@ -3473,7 +3473,7 @@ var xe_icon_button_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-logo/index.js
+// scripts/ignite/dist/tokens/component/xe-logo/index.js
 var xe_logo_default = i`/**
  * Logo Component CSS
  * Styles for logo component using XE design tokens
@@ -3535,7 +3535,7 @@ a {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-menu/index.js
+// scripts/ignite/dist/tokens/component/xe-menu/index.js
 var xe_menu_default = i`/**
  * Menu Component CSS
  * Styles for menu container using XE design tokens
@@ -3585,7 +3585,7 @@ var xe_menu_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-menu-button/index.js
+// scripts/ignite/dist/tokens/component/xe-menu-button/index.js
 var xe_menu_button_default = i`/**
  * Menu Button Component CSS
  * Layout styles for xe-menu-button.
@@ -3628,7 +3628,7 @@ var xe_menu_button_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-menu-item/index.js
+// scripts/ignite/dist/tokens/component/xe-menu-item/index.js
 var xe_menu_item_default = i`/**
  * Menu Item Component CSS
  * Styles for menu item using XE design tokens
@@ -3779,7 +3779,7 @@ var xe_menu_item_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-nav-drawer/index.js
+// scripts/ignite/dist/tokens/component/xe-nav-drawer/index.js
 var xe_nav_drawer_default = i`/**
  * Nav Drawer Component CSS
  * Styles for the mobile navigation drawer using XE design tokens
@@ -3939,7 +3939,7 @@ var xe_nav_drawer_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-nav-drawer-item/index.js
+// scripts/ignite/dist/tokens/component/xe-nav-drawer-item/index.js
 var xe_nav_drawer_item_default = i`/**
  * Nav Drawer Item Component CSS
  * Styles for individual navigation items within xe-nav-drawer
@@ -4037,7 +4037,7 @@ var xe_nav_drawer_item_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-nav-item/index.js
+// scripts/ignite/dist/tokens/component/xe-nav-item/index.js
 var xe_nav_item_default = i`/**
  * Nav Item Component CSS
  * Styles for navigation items using XE design tokens
@@ -4157,7 +4157,7 @@ var xe_nav_item_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-navbar/index.js
+// scripts/ignite/dist/tokens/component/xe-navbar/index.js
 var xe_navbar_default = i`/**
  * Navbar Component CSS
  * For use in the shadow DOM of xe-navbar.
@@ -4426,7 +4426,7 @@ var xe_navbar_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-promo/index.js
+// scripts/ignite/dist/tokens/component/xe-promo/index.js
 var xe_promo_default = i`/**
  * Promo Composition CSS
  * Two-column layout: editorial content left, media slot right.
@@ -4572,7 +4572,7 @@ var xe_promo_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-quick-actions/index.js
+// scripts/ignite/dist/tokens/component/xe-quick-actions/index.js
 var xe_quick_actions_default = i`/**
  * Quick Actions Composition CSS
  * Responsive card grid with count-driven layout variants (3-up, 4-up, 5-up).
@@ -4673,7 +4673,7 @@ var xe_quick_actions_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-radio-tile/index.js
+// scripts/ignite/dist/tokens/component/xe-radio-tile/index.js
 var xe_radio_tile_default = i`:host {
   display: flex;
   box-sizing: border-box;
@@ -4837,7 +4837,7 @@ var xe_radio_tile_default = i`:host {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-radio-tile-group/index.js
+// scripts/ignite/dist/tokens/component/xe-radio-tile-group/index.js
 var xe_radio_tile_group_default = i`:host {
   display: block;
   container-type: inline-size;
@@ -4859,7 +4859,7 @@ var xe_radio_tile_group_default = i`:host {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-search-bar/index.js
+// scripts/ignite/dist/tokens/component/xe-search-bar/index.js
 var xe_search_bar_default = i`/**
  * Search Bar Component CSS
  * Uses CSS custom properties from design tokens
@@ -5072,7 +5072,7 @@ input:disabled::placeholder { color: var(--search-bar-disabled-text); }
 }
 `;
 
-// scripts/ignite/tokens/component/xe-search-delegate/index.js
+// scripts/ignite/dist/tokens/component/xe-search-delegate/index.js
 var xe_search_delegate_default = i`/**
  * Search Delegate Component CSS
  * Full-screen search overlay using XE design tokens.
@@ -5213,7 +5213,7 @@ input::placeholder {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-segmented-button/index.js
+// scripts/ignite/dist/tokens/component/xe-segmented-button/index.js
 var xe_segmented_button_default = i`/**
  * Segmented Button Component CSS
  * Styles for the segmented button container and individual segments
@@ -5246,7 +5246,7 @@ var xe_segmented_button_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-segmented-button-segment/index.js
+// scripts/ignite/dist/tokens/component/xe-segmented-button-segment/index.js
 var xe_segmented_button_segment_default = i`/**
  * Segmented Button Segment CSS
  * Styles for individual segment within xe-segmented-button
@@ -5344,7 +5344,7 @@ var xe_segmented_button_segment_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-spotlight/index.js
+// scripts/ignite/dist/tokens/component/xe-spotlight/index.js
 var xe_spotlight_default = i`/**
  * Spotlight Composition CSS
  * Full-width hero with centered content. Background is solid color (subtle/muted)
@@ -5480,7 +5480,7 @@ var xe_spotlight_default = i`/**
 }
 `;
 
-// scripts/ignite/tokens/component/xe-svg/index.js
+// scripts/ignite/dist/tokens/component/xe-svg/index.js
 var xe_svg_default = i`:host {
   display: block;
   color: var(--xe-svg-color, inherit);
@@ -5504,7 +5504,7 @@ svg {
 }
 `;
 
-// scripts/ignite/tokens/component/xe-youtube-embed/index.js
+// scripts/ignite/dist/tokens/component/xe-youtube-embed/index.js
 var xe_youtube_embed_default = i`:host {
   display: block;
   position: relative;

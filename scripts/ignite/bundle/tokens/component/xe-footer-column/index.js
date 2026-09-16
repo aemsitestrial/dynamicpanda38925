@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-footer-column/index.js
+// scripts/ignite/dist/tokens/component/xe-footer-column/index.js
 var xe_footer_column_default = i`/**
  * Footer Column Component CSS
  */

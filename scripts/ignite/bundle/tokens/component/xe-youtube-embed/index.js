@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-youtube-embed/index.js
+// scripts/ignite/dist/tokens/component/xe-youtube-embed/index.js
 var xe_youtube_embed_default = i`:host {
   display: block;
   position: relative;

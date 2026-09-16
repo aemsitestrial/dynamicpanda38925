@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-accordion/index.js
+// scripts/ignite/dist/tokens/component/xe-accordion/index.js
 var xe_accordion_default = i`/**
  * Accordion Component CSS
  * Styles for accordion component using XE design tokens

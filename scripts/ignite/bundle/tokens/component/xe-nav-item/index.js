@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-nav-item/index.js
+// scripts/ignite/dist/tokens/component/xe-nav-item/index.js
 var xe_nav_item_default = i`/**
  * Nav Item Component CSS
  * Styles for navigation items using XE design tokens

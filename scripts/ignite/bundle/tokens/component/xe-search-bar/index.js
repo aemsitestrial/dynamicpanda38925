@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-search-bar/index.js
+// scripts/ignite/dist/tokens/component/xe-search-bar/index.js
 var xe_search_bar_default = i`/**
  * Search Bar Component CSS
  * Uses CSS custom properties from design tokens

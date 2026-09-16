@@ -5660,7 +5660,7 @@ iframe {
 }
 `;
 
-// scripts/ignite/primitives/media/icon/icon-resolver.js
+// scripts/ignite/dist/primitives/media/icon/icon-resolver.js
 var iconRegistry = {};
 function resolveIcon(iconName) {
   const iconDef = iconRegistry[iconName];
@@ -5682,7 +5682,7 @@ function resolveIcon(iconName) {
   `;
 }
 
-// scripts/ignite/primitives/media/icon/xe-icon.js
+// scripts/ignite/dist/primitives/media/icon/xe-icon.js
 var __decorate = function(decorators, target, key, desc) {
   var c4 = arguments.length, r5 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);
@@ -5710,7 +5710,7 @@ XEIcon = __decorate([
   t3("xe-icon")
 ], XEIcon);
 
-// scripts/ignite/primitives/action/icon-button/xe-icon-button.js
+// scripts/ignite/dist/primitives/action/icon-button/xe-icon-button.js
 var __decorate2 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r5 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);

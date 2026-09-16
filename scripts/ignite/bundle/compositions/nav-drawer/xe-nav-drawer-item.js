@@ -5671,7 +5671,7 @@ XEIcon = __decorate([
   t3("xe-icon")
 ], XEIcon);
 
-// scripts/ignite/compositions/nav-drawer/xe-nav-drawer-item.js
+// scripts/ignite/dist/compositions/nav-drawer/xe-nav-drawer-item.js
 var __decorate2 = function(decorators, target, key, desc) {
   var c4 = arguments.length, r6 = c4 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);

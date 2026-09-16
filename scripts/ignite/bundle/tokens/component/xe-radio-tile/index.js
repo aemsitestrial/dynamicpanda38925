@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-radio-tile/index.js
+// scripts/ignite/dist/tokens/component/xe-radio-tile/index.js
 var xe_radio_tile_default = i`:host {
   display: flex;
   box-sizing: border-box;

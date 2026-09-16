@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-hero/index.js
+// scripts/ignite/dist/tokens/component/xe-hero/index.js
 var xe_hero_default = i`/**
  * Hero Component CSS
  * Styles for hero section component using XE design tokens

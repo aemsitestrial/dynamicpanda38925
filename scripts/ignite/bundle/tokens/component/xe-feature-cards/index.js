@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-feature-cards/index.js
+// scripts/ignite/dist/tokens/component/xe-feature-cards/index.js
 var xe_feature_cards_default = i`/**
  * Feature Cards Composition CSS
  * Section wrapper with heading, optional subheading, and a card grid.

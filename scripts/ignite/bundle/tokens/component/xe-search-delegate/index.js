@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-search-delegate/index.js
+// scripts/ignite/dist/tokens/component/xe-search-delegate/index.js
 var xe_search_delegate_default = i`/**
  * Search Delegate Component CSS
  * Full-screen search overlay using XE design tokens.

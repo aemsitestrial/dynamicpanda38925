@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-segmented-button/index.js
+// scripts/ignite/dist/tokens/component/xe-segmented-button/index.js
 var xe_segmented_button_default = i`/**
  * Segmented Button Component CSS
  * Styles for the segmented button container and individual segments

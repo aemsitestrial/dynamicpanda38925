@@ -548,7 +548,7 @@ var o4 = s3.litElementPolyfillSupport;
 o4?.({ LitElement: i4 });
 (s3.litElementVersions ??= []).push("4.2.2");
 
-// scripts/ignite/tokens/component/xe-spotlight/index.js
+// scripts/ignite/dist/tokens/component/xe-spotlight/index.js
 var xe_spotlight_default = i`/**
  * Spotlight Composition CSS
  * Full-width hero with centered content. Background is solid color (subtle/muted)

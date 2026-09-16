@@ -5651,7 +5651,7 @@ iframe {
 }
 `;
 
-// scripts/ignite/utils/focus-trap.js
+// scripts/ignite/dist/utils/focus-trap.js
 var FOCUSABLE = 'button:not([disabled]):not([tabindex="-1"]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex="0"]';
 function getFocusableEls(root) {
   const results = [];
@@ -5878,7 +5878,7 @@ XEIconButton = __decorate2([
   t3("xe-icon-button")
 ], XEIconButton);
 
-// scripts/ignite/primitives/layout/bottom-sheet/xe-bottom-sheet.js
+// scripts/ignite/dist/primitives/layout/bottom-sheet/xe-bottom-sheet.js
 var __decorate3 = function(decorators, target, key, desc) {
   var c5 = arguments.length, r6 = c5 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r6 = Reflect.decorate(decorators, target, key, desc);

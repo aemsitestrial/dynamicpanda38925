@@ -5646,7 +5646,7 @@ iframe {
 }
 `;
 
-// scripts/ignite/primitives/content-display/accordion/xe-accordion.js
+// scripts/ignite/dist/primitives/content-display/accordion/xe-accordion.js
 var __decorate = function(decorators, target, key, desc) {
   var c5 = arguments.length, r5 = c5 < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d3;
   if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r5 = Reflect.decorate(decorators, target, key, desc);

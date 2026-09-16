@@ -1,4 +1,4 @@
-// scripts/ignite/compositions/navbar/utils/search-routing.js
+// scripts/ignite/dist/compositions/navbar/utils/search-routing.js
 var SEARCH_EXPANDED_WIDTH = 280;
 var SEARCH_COLLAPSED_WIDTH = 48;
 var SEARCH_NET_GROWTH = SEARCH_EXPANDED_WIDTH - SEARCH_COLLAPSED_WIDTH;
