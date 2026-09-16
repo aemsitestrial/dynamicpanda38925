@@ -1,6 +1,7 @@
-// registers the <xe-feature-cards> and <xe-card-grid> custom elements
+// registers the <xe-feature-cards> custom element, which also bundles and
+// registers <xe-card-grid>; importing that one separately would double
+// register it and throw a NotSupportedError, breaking the block's load
 import '../../scripts/ignite/bundle/compositions/feature-cards/xe-feature-cards.js';
-import '../../scripts/ignite/bundle/primitives/layout/card-grid/xe-card-grid.js';
 import '../../scripts/ignite/bundle/primitives/layout/card/xe-card.js';
 import '../../scripts/ignite/bundle/primitives/action/button/xe-button.js';
 
