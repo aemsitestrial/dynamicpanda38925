@@ -17,6 +17,7 @@
     "copy:ignite:themes": "mkdir -p scripts/ignite/themes && cp -r node_modules/@ignite/web/dist/themes/. scripts/ignite/themes",
     "copy:ignite:tokens": "mkdir -p scripts/ignite/tokens && cp -r node_modules/@ignite/web/dist/tokens/. scripts/ignite/tokens",
     "copy:ignite:utils": "mkdir \"scripts/ignite/utils\" && cp node_modules/@ignite/web/dist/utils/*.js scripts/ignite/utils",
+    "bundle:ignite": "esbuild scripts/ignite/compositions/*.js scripts/ignite/primitives/*.js --bundle --format=esm --outbase=scripts/ignite --outdir=scripts/ignite/bundle",
     "copy:ignite:package": "rm -rf scripts/ignite && npm run copy:ignite:composition && npm run copy:ignite:primitive && npm run copy:ignite:themes && npm run copy:ignite:tokens && npm run copy:ignite:utils && npm run bundle:ignite",
     "prepare": "husky"
   },
@@ -32,6 +33,7 @@
   "homepage": "https://github.com/adobe/aem-boilerplate#readme",
   "devDependencies": {
     "@babel/eslint-parser": "7.28.0",
+    "esbuild": "^0.25.5",
     "eslint": "8.57.1",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.32.0",
