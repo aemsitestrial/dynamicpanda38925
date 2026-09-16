@@ -1,0 +1,28 @@
+/**
+ * @ignite/web — cms theme
+ * Import this file to load all tokens for the cms brand.
+ * Usage: import '@ignite/web/themes/cms';
+ */
+
+/* Brand web fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* Foundation variables */
+@import '../tokens/foundations/colors.css';
+@import '../tokens/foundations/typography.css';
+@import '../tokens/foundations/spacing.css';
+@import '../tokens/foundations/radius.css';
+@import '../tokens/foundations/border-width.css';
+@import '../tokens/foundations/sizes.css';
+@import '../tokens/foundations/opacity.css';
+@import '../tokens/foundations/motion.css';
+@import '../tokens/foundations/icon-size.css';
+@import '../tokens/foundations/aspect-ratios.css';
+
+/* Role variables — cms brand (common + light/dark modes) */
+@import '../tokens/roles/cms/common.css';
+@import '../tokens/roles/cms/light.css';
+@import '../tokens/roles/cms/dark.css';
+
+/* Base styles */
+@import '../tokens/foundations/base.css';
