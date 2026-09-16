@@ -24,7 +24,5 @@ export default function decorate(block) {
   const featureCards = document.createElement('xe-feature-cards');
   featureCards.setAttribute('heading', heading);
   featureCards.setAttribute('subHeading', subHeading);
-  [...block.children].forEach((row) => xeCardGrid.append(row));
-  featureCards.appendChild(xeCardGrid);
   block.append(featureCards);
 }
