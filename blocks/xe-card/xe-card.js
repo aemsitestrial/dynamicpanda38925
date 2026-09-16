@@ -1,5 +1,7 @@
 export default function decorate(block) {
-  const title = 'Title', description = 'description', actionTitle = 'actionTitle';
+  const title = 'Title';
+  const description = 'description';
+  const actionTitle = 'actionTitle';
   const xeCard = document.createElement('xe-card');
 
   // create title
