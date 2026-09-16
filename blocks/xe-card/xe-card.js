@@ -1,6 +1,6 @@
 export default function decorate(block) {
   const rows = [...block.children];
-  const [title, description, actionTitle] = rows.children;
+  const title = "Title", description = "description", actionTitle = "actionTitle";
   const xeCard = document.createElement('xe-card');
 
   // create title
