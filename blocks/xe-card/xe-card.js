@@ -2,6 +2,25 @@
 import '../../scripts/ignite/bundle/primitives/layout/card/xe-card.js';
 import '../../scripts/ignite/bundle/primitives/action/button/xe-button.js';
 
+async function safeImport(path) {
+  const originalDefine = customElements.define.bind(customElements);
+  customElements.define = (name, ctor, options) => {
+    if (customElements.get(name)) return undefined;
+    return originalDefine(name, ctor, options);
+  };
+  try {
+    await import(path);
+  } finally {
+    customElements.define = originalDefine;
+  }
+}
+
+await Promise.all([
+  '../../scripts/ignite/bundle/primitives/layout/card/xe-card.js',
+  '../../scripts/ignite/bundle/primitives/action/button/xe-button.js',
+].map(safeImport));
+
+
 export default function decorate(block) {
   const title = 'Title';
   const description = 'description';
