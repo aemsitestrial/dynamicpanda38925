@@ -1,5 +1,4 @@
 export default function decorate(block) {
-  const rows = [...block.children];
   const heading = 'Hello';
   const subHeading = 'world';
   const xeCardGrid = document.createElement('xe-card-grid');
