@@ -1,6 +1,6 @@
 // registers the <xe-card> and <xe-button> custom elements
-import '../../scripts/ignite/bundle/primitives/xe-card.js';
-import '../../scripts/ignite/bundle/primitives/xe-button.js';
+import '../../scripts/ignite/bundle/primitives/layout/card/xe-card.js';
+import '../../scripts/ignite/bundle/primitives/action/button/xe-button.js';
 
 export default function decorate(block) {
   const title = 'Title';
