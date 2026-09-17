@@ -34,16 +34,16 @@
           "label": "Description"
         },
         {
+          "component": "aem-content",
+          "valueType": "string",
+          "name": "action",
+          "label": "Action Link"
+        },
+        {
           "component": "text",
           "valueType": "string",
           "name": "actionText",
           "label": "Action"
-        },
-        {
-          "component": "aemc-content",
-          "valueType": "string",
-          "name": "action",
-          "label": "Link URL"
         }
       ]
     }
