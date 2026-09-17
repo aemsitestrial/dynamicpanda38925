@@ -25,8 +25,9 @@ export default function decorate(block) {
   featureCards.setAttribute('subHeading', subHeading.textContent);
   cards.forEach((row) => {
     decorateCard(row);
-    xeCardGrid.appendChild(row);
+    xeCardGrid.append(row);
   });
-  featureCards.appendChild(xeCardGrid);
+  featureCards.append(xeCardGrid);
+  block.textContent = '';
   block.append(featureCards);
 }
