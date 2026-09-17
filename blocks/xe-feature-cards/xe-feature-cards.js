@@ -18,13 +18,12 @@ await Promise.all([
 ].map(safeImport));
 
 export default function decorate(block) {
-  const heading = 'Hello';
-  const subHeading = 'world';
+  const [heading, subHeading, ...cards] = [...block.children];
   const xeCardGrid = document.createElement('xe-card-grid');
   const featureCards = document.createElement('xe-feature-cards');
-  featureCards.setAttribute('heading', heading);
-  featureCards.setAttribute('subHeading', subHeading);
-  [...block.children].forEach((row) => {
+  featureCards.setAttribute('heading', heading.textContent);
+  featureCards.setAttribute('subHeading', subHeading.textContent);
+  cards.forEach((row) => {
     decorateCard(row);
     xeCardGrid.appendChild(row);
   });

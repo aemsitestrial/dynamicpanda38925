@@ -1,49 +1,42 @@
 // registers the <xe-card> and <xe-button> custom elements
 import '../../scripts/ignite/bundle/primitives/layout/card/xe-card.js';
 import '../../scripts/ignite/bundle/primitives/action/button/xe-button.js';
-
-async function safeImport(path) {
-  const originalDefine = customElements.define.bind(customElements);
-  customElements.define = (name, ctor, options) => {
-    if (customElements.get(name)) return undefined;
-    return originalDefine(name, ctor, options);
-  };
-  try {
-    await import(path);
-  } finally {
-    customElements.define = originalDefine;
-  }
-}
-
-await Promise.all([
-  '../../scripts/ignite/bundle/primitives/layout/card/xe-card.js',
-  '../../scripts/ignite/bundle/primitives/action/button/xe-button.js',
-].map(safeImport));
+import { moveInstrumentation } from '../../scripts/scripts.js';
 
 export default function decorate(block) {
-  const title = 'Title';
-  const description = 'description';
-  const actionTitle = 'actionTitle';
-  const xeCard = document.createElement('xe-card');
+  const [titleCell, bodyCell, linkCell] = [...block.children];
+  const card = document.createElement('xe-card');
+  moveInstrumentation(block, card);
+  card.setAttribute('variant', 'surface');
+  card.setAttribute('treatment', 'filled');
+  if (titleCell) {
+    const title = document.createElement('h3');
+    title.setAttribute('slot', 'title');
+    title.textContent = titleCell.textContent.trim();
+    card.append(title);
+  }
 
-  // create title
-  const elTitle = document.createElement('h3');
-  elTitle.textContent = title;
-  elTitle.setAttribute('slot', 'title');
-  xeCard.appendChild(elTitle);
+  if (bodyCell) {
+    // Body paragraphs go into the card's default slot.
+    while (bodyCell.firstChild) card.append(bodyCell.firstChild);
+  }
 
-  // create description
-  const elDescription = document.createElement('p');
-  elDescription.textContent = description;
-  xeCard.appendChild(elDescription);
+  const link = linkCell?.querySelector('a');
+  if (link) {
+    const actions = document.createElement('div');
+    actions.setAttribute('slot', 'actions');
 
-  // create action
-  const elAction = document.createElement('div');
-  elAction.setAttribute('slot', 'action');
-  const elButton = document.createElement('xe-button');
-  elButton.textContent = actionTitle;
-  elAction.appendChild(elButton);
-  xeCard.appendChild(elAction);
+    const button = document.createElement('xe-button');
+    button.setAttribute('variant', 'primary');
+    button.setAttribute('treatment', 'outline');
+    const href = link.getAttribute('href');
+    if (href) button.setAttribute('href', href);
+    button.textContent = link.textContent.trim();
 
-  block.replaceChildren(xeCard);
+    actions.append(button);
+    card.append(actions);
+  }
+
+  block.textContent = '';
+  block.append(card);
 }
