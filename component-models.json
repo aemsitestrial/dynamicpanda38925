@@ -226,7 +226,7 @@
         "multi": false
       },
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
         "name": "description",
         "label": "Description"
@@ -238,7 +238,7 @@
         "label": "Action"
       },
       {
-        "component": "text",
+        "component": "aemc-content",
         "valueType": "string",
         "name": "action",
         "label": "Link URL"
@@ -249,14 +249,13 @@
     "id": "xe-feature-cards",
     "fields": [
       {
-        "component": "reference",
+        "component": "text",
         "valueType": "string",
         "name": "heading",
-        "label": "Heading",
-        "multi": false
+        "label": "Heading"
       },
       {
-        "component": "reference",
+        "component": "richtext",
         "name": "subHeading",
         "value": "sub header",
         "label": "Sub heading",

@@ -28,7 +28,7 @@
           "multi": false
         },
         {
-          "component": "text",
+          "component": "richtext",
           "valueType": "string",
           "name": "description",
           "label": "Description"
@@ -40,7 +40,7 @@
           "label": "Action"
         },
         {
-          "component": "text",
+          "component": "aemc-content",
           "valueType": "string",
           "name": "action",
           "label": "Link URL"
