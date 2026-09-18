@@ -1,4 +1,4 @@
-import decorateCard from '../xe-card/xe-card.js';
+import decorateCard, { createCardBlock } from '../xe-card/xe-card.js';
 
 async function safeImport(path) {
   const originalDefine = customElements.define.bind(customElements);
@@ -20,18 +20,6 @@ await Promise.all([
 const MIN_CARDS = 2;
 const MAX_CARDS = 3;
 
-// stand-in row matching the [title, body, link] cell structure xe-card.js expects
-function createPlaceholderCardRow(index) {
-  const row = document.createElement('div');
-  const titleCell = document.createElement('div');
-  titleCell.textContent = `Card title ${index}`;
-  const bodyCell = document.createElement('div');
-  bodyCell.innerHTML = '<p>Add a description for this card.</p>';
-  const linkCell = document.createElement('div');
-  row.append(titleCell, bodyCell, linkCell);
-  return row;
-}
-
 export default function decorate(block) {
   const [heading, subHeading, ...allCards] = [...block.children];
   if (allCards.length > MAX_CARDS) {
@@ -40,7 +28,8 @@ export default function decorate(block) {
   }
   const cards = allCards.slice(0, MAX_CARDS);
   while (cards.length < MIN_CARDS) {
-    cards.push(createPlaceholderCardRow(cards.length + 1));
+    const n = cards.length + 1;
+    cards.push(createCardBlock({ title: `Card title ${n}`, body: 'Add a description for this card.' }));
   }
   const xeCardGrid = document.createElement('xe-card-grid');
   const featureCards = document.createElement('xe-feature-cards');
