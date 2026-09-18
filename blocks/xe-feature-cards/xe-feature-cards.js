@@ -29,7 +29,7 @@ export default function decorate(block) {
   const cards = allCards.slice(0, MAX_CARDS);
   while (cards.length < MIN_CARDS) {
     const n = cards.length + 1;
-    cards.push(createCardBlock({ title: `Card title ${n}`, body: 'Add a description for this card.' }));
+    cards.push(createCardBlock());
   }
   const xeCardGrid = document.createElement('xe-card-grid');
   const featureCards = document.createElement('xe-feature-cards');
