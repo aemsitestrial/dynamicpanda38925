@@ -28,7 +28,6 @@ export default function decorate(block) {
   }
   const cards = allCards.slice(0, MAX_CARDS);
   while (cards.length < MIN_CARDS) {
-    const n = cards.length + 1;
     cards.push(createCardBlock());
   }
   const xeCardGrid = document.createElement('xe-card-grid');

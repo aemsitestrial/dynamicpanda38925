@@ -42,7 +42,9 @@ export default function decorate(block) {
 }
 
 // builds the raw [title, body, link] cell markup xe-card's decorate() expects
-export function createCardBlock({ title = 'Title', body = 'Description', linkHref = 'https://www.google.com', linkText = 'View' } = {}) {
+export function createCardBlock({
+  title = 'Title', body = 'Description', linkHref = 'https://www.google.com', linkText = 'View',
+} = {}) {
   const block = document.createElement('div');
   const titleCell = document.createElement('div');
   titleCell.textContent = title;
