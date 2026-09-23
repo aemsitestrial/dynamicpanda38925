@@ -1,4 +1,4 @@
-import decorateCard, { createCardBlock } from '../xe-card/xe-card.js';
+import decorateCard from '../xe-card/xe-card.js';
 
 async function safeImport(path) {
   const originalDefine = customElements.define.bind(customElements);
