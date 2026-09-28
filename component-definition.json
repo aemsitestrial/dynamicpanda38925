@@ -191,8 +191,7 @@
                     "description": "Enter description here",
                     "action": "https://www.google.com",
                     "actionText": "View",
-                    "multi": true,
-                    "limit": 3
+                    "multi": true
                   }
                 }
               }

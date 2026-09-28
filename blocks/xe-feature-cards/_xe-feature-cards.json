@@ -19,9 +19,7 @@
                 "description": "Enter description here",
                 "action": "https://www.google.com",
                 "actionText": "View",
-                "multi": true,
-                "limit": 3
-              }
+                "multi": true              }
             }
           }
         }
@@ -36,7 +34,15 @@
           "component": "text",
           "valueType": "string",
           "name": "heading",
-          "label": "Heading"
+          "label": "Heading",
+          "description": "Lorem ipsum dolor sit amet",
+          "required": true,
+          "validation": {
+            "minLength": 3,
+            "maxLength": 10,
+            "regExp": "^[A-Z0-9]+$",
+            "customErrorMsg": "Promo code must be 3–10 uppercase letters or numbers."
+          }
         },
         {
           "component": "richtext",
