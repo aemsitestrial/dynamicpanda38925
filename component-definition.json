@@ -193,14 +193,6 @@
                     "actionText": "View",
                     "multi": true,
                     "limit": 3
-                  },
-                  "key-card-1": {
-                    "name": "Featured Articles",
-                    "model": "xe-card",
-                    "key-value": true,
-                    "title": "",
-                    "description": "",
-                    "limit": 4
                   }
                 }
               }

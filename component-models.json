@@ -268,6 +268,14 @@
         "value": "sub header",
         "label": "Sub heading",
         "valueType": "string"
+      },
+      {
+        "name": "Featured Articles",
+        "model": "xe-card",
+        "key-value": true,
+        "title": "",
+        "description": "",
+        "limit": 4
       }
     ]
   }
