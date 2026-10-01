@@ -271,17 +271,17 @@
       },
       {
         "component": "container",
-        "name": "images",
+        "name": "actions",
         "multi": true,
         "collapsible": false,
         "fields": [
           {
-            "component": "reference",
-            "name": "image"
+            "component": "text",
+            "name": "action"
           },
           {
             "component": "text",
-            "name": "imageAlt"
+            "name": "actionText"
           }
         ]
       }

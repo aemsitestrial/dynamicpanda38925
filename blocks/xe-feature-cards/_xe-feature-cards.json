@@ -20,15 +20,7 @@
                 "action": "https://www.google.com",
                 "actionText": "View",
                 "multi": true
-              },
-              "xe-links": [{
-                "sling:resourceType": "core/franklin/components/block/v1/block/item",
-                "name": "Link 1",
-                "title": "Placeholder Link",
-                "description": "Enter link description here",
-                "action": "https://www.google.com",
-                "actionText": "View"
-              }]
+              }
             }
           }
         }
@@ -62,16 +54,16 @@
         },
         {
           "component": "container",
-          "name": "images",
+          "name": "actions",
           "multi": true,
           "collapsible": false,
           "fields" : [{
-            "component": "reference",
-            "name": "image"
+            "component": "text",
+            "name": "action"
           },
           {
             "component": "text",
-            "name": "imageAlt"
+            "name": "actionText"
           }]
         }
       ]
