@@ -268,22 +268,6 @@
         "value": "sub header",
         "label": "Sub heading",
         "valueType": "string"
-      },
-      {
-        "component": "container",
-        "name": "actions",
-        "multi": true,
-        "collapsible": false,
-        "fields": [
-          {
-            "component": "text",
-            "name": "action"
-          },
-          {
-            "component": "text",
-            "name": "actionText"
-          }
-        ]
       }
     ]
   }

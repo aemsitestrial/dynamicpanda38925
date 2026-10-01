@@ -19,7 +19,16 @@
                 "description": "Enter description here",
                 "action": "https://www.google.com",
                 "actionText": "View",
-                "multi": true
+                "multi": true,
+                "limit": 3
+              },
+              "key-card-1": {
+                "name": "Featured Articles",
+                "model": "xe-card",
+                "key-value": true,
+                "title": "",
+                "description": "",
+                "limit": 4
               }
             }
           }
@@ -51,20 +60,6 @@
           "value": "sub header",
           "label": "Sub heading",
           "valueType": "string"
-        },
-        {
-          "component": "container",
-          "name": "actions",
-          "multi": true,
-          "collapsible": false,
-          "fields" : [{
-            "component": "text",
-            "name": "action"
-          },
-          {
-            "component": "text",
-            "name": "actionText"
-          }]
         }
       ]
     }

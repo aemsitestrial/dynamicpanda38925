@@ -191,7 +191,16 @@
                     "description": "Enter description here",
                     "action": "https://www.google.com",
                     "actionText": "View",
-                    "multi": true
+                    "multi": true,
+                    "limit": 3
+                  },
+                  "key-card-1": {
+                    "name": "Featured Articles",
+                    "model": "xe-card",
+                    "key-value": true,
+                    "title": "",
+                    "description": "",
+                    "limit": 4
                   }
                 }
               }
