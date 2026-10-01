@@ -54,7 +54,7 @@
           "valueType": "string"
         },
         {
-          "name": "Featured Articles",
+          "name": "testKeyValue",
           "model": "xe-card",
           "key-value": true,
           "title": "",
